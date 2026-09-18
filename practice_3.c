@@ -2,22 +2,21 @@
 
 int main () {
 
-int number;
+            int number;
 
-printf("Enter the number : \n");
-scanf("%d",&number);
+           printf("Enter the number : \n");
+           scanf("%d",&number);
 
-if(!(number == 10)){
-       printf("Number is 10\n");
-}
+           if(!(number == 10)){
+              printf("Number is 10\n");
+           }
 
-else{
-printf("Number is not 10\n");
-}
+           else{
+               printf("Number is not 10\n"); 
+           }
+           return 0;
 
-return 0;
-
-}
+           }
 
 
 
